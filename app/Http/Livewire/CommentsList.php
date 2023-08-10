@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\DB;
 class CommentsList extends Component
 {
     use WithPagination;
-    public $newComment;
+    public $newComment, $commentFile;
 
     /**
      * store the comments to comments table
@@ -19,7 +19,10 @@ class CommentsList extends Component
      */
     public function addComment()
     {
-        $this->validate(['newComment' => 'required']);
+        $this->validate([
+            'newComment' => 'required',
+            'commentFile' => 'required',
+        ]);
 
         Comments::create(['body' => $this->newComment, 'user_id' => 1]);
 

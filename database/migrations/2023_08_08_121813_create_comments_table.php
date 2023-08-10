@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->text('body');
             $table->string('user_id');
+            $table->string('commentFile');
             $table->timestamps();
         });
     }

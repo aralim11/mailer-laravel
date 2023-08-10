@@ -9,8 +9,9 @@
             @endif
         </div>
 
-        <input type="text" placeholder="What's in your mind"
-                class="p-2 w-96 h-10 border rounded-md text-lg shadow-sm focus:outline-none focus:border-sky-500 ring-1 focus:ring-sky-500" wire:model.defer='newComment'>
+        <input type="file" placeholder="What's in your mind" class="p-2 w-96 h-10 border rounded-md text-lg shadow-sm focus:outline-none focus:border-sky-500 ring-1 focus:ring-sky-500" wire:model.defer='commentFile'>
+
+        <input type="text" placeholder="What's in your mind" class="p-2 mt-2 w-96 h-10 border rounded-md text-lg shadow-sm focus:outline-none focus:border-sky-500 ring-1 focus:ring-sky-500" wire:model.defer='newComment'>
 
         <button type="submit" class="py-1 h-10 w-28 border border-sky-500 rounded-md text-lg hover:bg-sky-200 shadow">Submit</button>
     </form>
