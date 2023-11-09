@@ -13,17 +13,10 @@
 
     <!-- Styles -->
     @vite('resources/css/app.css')
-    @livewireStyles
 </head>
 
 <body class="mt-20 flex items-center justify-center bg-gray-100">
-    <livewire:comments-list />
-
-    {{-- <livewire:card> --}}
-
-    {{-- <livewire:counter /> --}}
-
-    @livewireScripts
+    <h1>Hello World</h1>
 </body>
 
 </html>
