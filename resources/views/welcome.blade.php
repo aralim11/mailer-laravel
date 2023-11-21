@@ -16,7 +16,7 @@
 </head>
 
 <body class="mt-20 flex items-center justify-center bg-gray-100">
-    <h1>Hello World</h1>
+    <h1>Hello World 2</h1>
 </body>
 
 </html>

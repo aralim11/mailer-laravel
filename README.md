@@ -1,1 +1,1 @@
-# Mailer Laravel Livewire
+# Mailer Laravel
